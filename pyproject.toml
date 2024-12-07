@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "thefuck_contrib_openai"
+version = "0.1.0"
+description = "Mess up a command line? OpenAI to the rescue!"
+authors = ["Nathan Byrd <techy1@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+{ include = "thefuck_contrib_openai"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+openai = "^1.57.0"
+thefuck = "^3.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
