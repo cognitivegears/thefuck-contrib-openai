@@ -13,13 +13,13 @@ TheFuck is a magnificent tool that corrects your previous console command. It is
 2. Install this extension using pip:
 
     ```bash
-    pip install thefuck-contrib-openai
+    pip install git+https://github.com/cognitivegears/thefuck-contrib-openai@main
     ```
 
 3. Set the OpenAI API key:
 
     ```bash
-    export OPENAI_API_KEY'='your-api-key'
+    export OPENAI_API_KEY='your-api-key'
     ```
 
 4. Optionally, add the following rule to your TheFuck configuration file (usually located at `~/.config/thefuck/settings.py`) to set which rules to use. For example, to only use the OpenAI rule:
